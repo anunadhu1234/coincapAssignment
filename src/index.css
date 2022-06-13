@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ECEFF1;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.links{
+  margin: 0 10%;
+}
+
+#connectBtn{
+  background-color: #18C683;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#connectBtn:hover {
+  margin-top: -3%;
+}
+#content{
+  background-image: linear-gradient(to right,#4052B6,#64B5F6);
+  height: 200px;
+}
+#contentDark{
+  background-image: linear-gradient(to right,#424242,#424242);
+  height: 200px;
+}
+.slots{
+  font-weight: bold;
+  color: white;
+}
+.value{
+  text-align: center;
+  font-size:large;
+}
+ 
+#headD
+{
+  background-color: black;
+  color: white;
+}
+
+#rowD{
+  background-color: #363636;
+  color: white;
+}
+
+.dataTable{
+  position: relative;
+  margin-top: -120px;
+  background-color: white;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footerD{
+  background-color: #424242;
+}
+
+.bg{
+  background-color: white;
+}
+
+.link :hover{
+  background-color: lightgrey;
+}
+
+.footer{
+  background-image: linear-gradient(to right,#4052B6,#64B5F6);
+}
+#tablerow :hover{
+
+  background-color: lightgrey;
+}
+
+.lg{
+  color: lightgrey;
+}
+ .lg :hover{
+  color: white;
+}
+
+.op{
+  opacity: 0.5;
+}
+
+.op :hover{
+  opacity: 1.0;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container{
+    width: auto;
+  }
+
+  .xs-hidden{
+    display: none;
+  }
+  .smp{
+     
+    width: 400px;
+     
+  }
+  .smcon{
+  width: auto;
+  }
+  .table{
+
+    margin-top: 50px;
+  }
+}
+
